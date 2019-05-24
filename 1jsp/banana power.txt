@@ -1,0 +1,36 @@
+<script language="javascript">
+			function writeCheck() {
+				var form = document.memwrite
+				if (!memwrite.custname.value) {
+					alert("회원성명을 입력해주세여");
+					form.custname.focus();
+					return;
+				}
+				if (!form.phone.value) {
+					alert("회원전번을 입력해주세여");
+					form.phone.focus();
+					return;
+				}
+				if (!form.address.value) {
+					alert("회원주소를 입력해주세여");
+					form.address.focus();
+					return;
+				}
+				if (!form.joindate.value) {
+					alert("가입날짜를 입력해주세여");
+					form.joindate.focus();
+					return;
+				}
+				if (!form.grade.value) {
+					alert("회원등급을 입력해주세여");
+					form.grade.focus();
+					return;
+				}
+				if (!form.city.value) {
+					alert("도시번호를 입력해주세여");
+					form.city.focus();
+					return;
+				}
+				form.submit();
+			}
+		</script>
