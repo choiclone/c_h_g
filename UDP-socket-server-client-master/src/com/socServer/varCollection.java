@@ -2,7 +2,7 @@ package com.socServer;
 
 import java.util.Scanner;
 
-public class varCollection {
+public class varCollection {//이름 입력하는 프로그램을 따로 클래스로 생성
 
     Scanner sc = new Scanner(System.in);
 
