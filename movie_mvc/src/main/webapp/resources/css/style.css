@@ -1,0 +1,171 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+li {
+	list-style: none;
+}
+/* header design */
+.head_liner {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+header {
+	width: 970px;
+	margin: 0 auto;
+	text-align: right;
+	height: 49px;
+	line-height: 49px;
+}
+
+header>a>img {
+	float: left;
+	margin: 10px 0;
+}
+
+header>ul>li {
+	display: inline-block;
+	border: 1px solid #e5e5e5;
+	border-top: none;
+	border-bottom: none;
+	width: 82px;
+	height: 49px;
+	text-align: center;
+	margin-left: -1px;
+}
+
+header a {
+	display: block;
+	font-weight: bolder;
+}
+
+#sidebar {
+    float: left;
+    width: 173px;
+    margin-left: -1000px;
+    margin-bottom: 20px;
+    border: 1px solid #DAEAAA;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: 7px;
+}
+
+#sidebar > h1 {
+    margin: 0;
+    padding: 14px;
+    background: #92B91C;
+    color: #FFF;
+    font-size: 16px;
+}
+
+#sidebar > ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#sidebar > ul > li > a {
+    display: block;
+    color: #64615D;
+    padding: 5px 3px 4px 17px;
+    text-decoration: none;
+    border-bottom: 1px solid #FFF;
+    font-weight: normal;
+}
+
+
+/*이미지 슬라이드 js에 대한 css*/
+#wrapper {
+	width: 578px;
+	margin: 75px auto
+}
+
+.sliderbutton {
+	float: left;
+	width: 32px;
+	padding-top: 134px
+}
+
+.sliderbutton img {
+	cursor: pointer
+}
+
+.sliderbutton img:hover {
+	background: #666
+}
+
+#slider {
+	float: left;
+	position: relative;
+	overflow: auto;
+	width: 500px;
+	height: 300px;
+	border: 2px solid #fff;
+	background: #fff
+}
+
+#slider ul {
+	position: absolute;
+	list-style: none;
+	top: 0;
+	left: 0
+}
+
+#slider li {
+	float: left;
+	width: 500px;
+	height: 300px;
+	padding-right: 10px
+}
+
+.pagination {
+	float: left;
+	list-style: none;
+	height: 25px;
+	margin: 15px 0 0 32px
+}
+
+.pagination li {
+	float: left;
+	cursor: pointer;
+	padding: 5px 8px;
+	background: #666;
+	border: 1px solid #999;
+	margin: 0 4px 0 0;
+	text-align: center;
+	color: #222
+}
+
+.pagination li:hover {
+	background: #777;
+	border: 1px solid #bbb;
+	color: #000
+}
+
+li.current {
+	border: 1px solid #ccc;
+	background: #888
+}
+
+li#content {
+	width: 464px;
+	height: 270px;
+	padding: 15px 28px 15px 18px
+}
+
+#content h1 {
+	font: 22px Georgia, Verdana;
+	margin-bottom: 15px;
+	color: #036
+}
