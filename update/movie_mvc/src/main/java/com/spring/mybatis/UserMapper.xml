@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.spring.mybatis.UserMapper">
+
+	<insert id="insert" parameterType="User">
+		INSERT INTO tb_member VALUES
+		(#{email}, #{passwd}, #{name}, #{mobile})
+	</insert>
+
+	<select id="login" resultType="User">
+		select email, passwd, name, mobile from tb_member where
+		email=#{email} AND passwd = #{passwd}
+	</select>
+	
+	<update id="modify" parameterType="User">
+	update tb_member set name = #{name}, mobile = #{mobile}
+	where email = #{email} AND passwd = #{passwd}
+	</update>
+	
+	<update id="changePasswd" parameterType="User">
+	update tb_member set passwd = #{passwd} where email=#{email} 
+	</update>
+	
+	<delete id="d_Member" parameterType="User">
+	delete form tb_member where email = #{email}
+	</delete>
+
+</mapper>

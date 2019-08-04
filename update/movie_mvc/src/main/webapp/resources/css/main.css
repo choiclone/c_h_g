@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{ 
+   text-decoration:none;
+   color: #000000;
+}
+li{
+    list-style: none;
+}
+.container{
+    margin-top: 50px;
+}
+/* login box */
+.content{
+    position: relative;
+    width: 500px;
+    margin: 100px auto 0 auto;
+    border: 1px solid #000000;
+}
+.content>h1,
+.content>tr,
+.btn_line
+{
+    text-align: center;
+}
+.content>tr>td{
+    margin-top: 10px;
+}
+.content tr>td>input{
+    width: 250px;
+    height: 30px;
+    border-radius: 12px;
+    padding-left: 10px;
+    color: #cccccc;
+}
+.btn_line{
+    margin: 20px 0;
+}
+.btn_line *{
+    cursor: pointer;
+}
+.btn_line>input[type=submit]{
+    border: none;
+    background-color: #ffffff;
+    height: 40px;
+    font-size: 17px;
+    margin-right: 10px;
+}
+.btn_line>input[type=reset]{
+    border: none;
+    background-color: #ffffff;
+    height: 40px;
+    font-size: 17px;
+    margin-right: 10px;
+}
+.btn_line>input[type=button]{
+    border: none;
+    background-color: #ffffff;
+    height: 40px;
+    font-size: 17px;
+    margin-right: 10px;
+}
+/* sign up */
+/* .signUp{ */
+/*     width: 800px; */
+/*     margin: 100px auto 0 auto; */
+/*     border-collapse: collapse; */
+/*     border-spacing: 0; */
+/* } */
+.signUp td{
+    border: 1px solid #cccccc;
+    padding: 10px 0 10px 10px;
+}
+.signUp td input{
+    margin-left: 10px;
+    width: 300px;
+}
