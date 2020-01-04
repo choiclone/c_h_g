@@ -2,6 +2,8 @@
 
 ### 깃허브 사용법을 연습하면서
 
+![라우터](./images/router.jpg)
+
 ### 자바와 python을 중점적으로
 ```javascript
 <script>
